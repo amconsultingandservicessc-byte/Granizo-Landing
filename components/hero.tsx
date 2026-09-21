@@ -1,13 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, MapPin } from "lucide-react"
-import { PREAPRUEBA_URL } from "@/lib/links"
-
-function scrollToContacto() {
-  const el = document.getElementById("contacto")
-  if (el) el.scrollIntoView({ behavior: "smooth" })
-}
+import { ArrowRight, MapPin, MessageCircle } from "lucide-react"
+import { PREAPRUEBA_URL, WHATSAPP_URL } from "@/lib/links"
 
 export function Hero() {
   return (
@@ -60,27 +55,38 @@ export function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-2 flex flex-col flex-wrap items-start gap-4 sm:flex-row sm:items-center"
+          className="flex items-baseline gap-2"
         >
-          <button
-            onClick={scrollToContacto}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 text-base font-semibold text-emerald-950 shadow-lg shadow-emerald-900/40 transition-colors hover:bg-emerald-400"
-          >
-            Precalifícate Gratis en 3 Minutos
-            <ArrowRight className="h-5 w-5" />
-          </button>
+          <span className="text-4xl font-extrabold text-white sm:text-5xl">
+            $439,000
+          </span>
+          <span className="text-lg font-semibold text-emerald-400">USD</span>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-4 flex items-baseline gap-2"
+          className="mt-2 flex flex-col items-stretch gap-4 sm:flex-row sm:items-center"
         >
-          <span className="text-4xl font-extrabold text-white sm:text-5xl">
-            $439,000
-          </span>
-          <span className="text-lg font-semibold text-emerald-400">USD</span>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 text-base font-semibold text-emerald-950 shadow-lg shadow-emerald-900/40 transition-colors hover:bg-emerald-400"
+          >
+            <MessageCircle className="h-5 w-5" />
+            Agendar visita por WhatsApp
+          </a>
+          <a
+            href={PREAPRUEBA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/60 bg-white/10 px-7 py-3.5 text-base font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+          >
+            Precalifícate gratis
+            <ArrowRight className="h-5 w-5" />
+          </a>
         </motion.div>
       </div>
     </section>
