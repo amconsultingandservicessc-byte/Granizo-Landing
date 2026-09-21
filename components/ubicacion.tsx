@@ -4,15 +4,15 @@ import { Reveal } from "@/components/reveal"
 const items = [
   {
     icon: Car,
-    title: "10 minutos de la frontera",
+    title: "A unos 10 minutos de la frontera",
     description:
-      "A solo 10 minutos de la línea fronteriza. ¡Ideal para un cruce eficiente hacia San Diego!",
+      "A unos 10 minutos de la línea fronteriza (según tráfico). Pensada para quien cruza a San Diego con frecuencia.",
   },
   {
     icon: Waves,
     title: "3 cuadras del nuevo Malecón",
     description:
-      "En plena remodelación, lo que garantiza el aumento de tu plusvalía con el paso del tiempo.",
+      "En plena remodelación, un proyecto que puede favorecer la plusvalía de la zona con el paso del tiempo.",
   },
   {
     icon: MapPin,
