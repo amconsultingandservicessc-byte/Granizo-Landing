@@ -8,6 +8,17 @@ const formas = [
   { icon: Building2, label: "Cofinavit" },
 ]
 
+const bancos = [
+  "Afirme",
+  "Banamex",
+  "Banorte",
+  "Banregio",
+  "HSBC",
+  "Mifel",
+  "Santander",
+  "Scotiabank",
+]
+
 export function Facilidades() {
   return (
     <section className="bg-slate-900 py-20 text-white sm:py-24">
@@ -33,6 +44,24 @@ export function Facilidades() {
                 <span className="text-lg font-semibold">{forma.label}</span>
               </div>
             ))}
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.15}>
+          <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6">
+            <p className="text-sm font-semibold text-emerald-100/90">
+              Evaluamos tu perfil con estos bancos
+            </p>
+            <p className="mt-3 flex flex-wrap justify-center gap-x-3 gap-y-2 text-sm text-emerald-100/70">
+              {bancos.map((banco, i) => (
+                <span key={banco}>
+                  {banco}
+                  {i < bancos.length - 1 && (
+                    <span className="ml-3 text-white/20">•</span>
+                  )}
+                </span>
+              ))}
+            </p>
           </div>
         </Reveal>
 
