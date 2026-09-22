@@ -53,6 +53,24 @@ export function Ubicacion() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.2}>
+          <div className="mt-10 overflow-hidden rounded-2xl border border-emerald-100 bg-white shadow-sm">
+            <iframe
+              src="https://maps.google.com/maps?q=Secci%C3%B3n%20Monumental%2C%20Playas%20de%20Tijuana%2C%20Baja%20California&z=15&output=embed"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicación aproximada: Sección Monumental, Playas de Tijuana"
+              className="h-[320px] w-full sm:h-[400px]"
+            />
+          </div>
+          <p className="mt-3 text-center text-sm text-slate-500">
+            Ubicación aproximada (Sección Monumental). La dirección exacta se comparte al agendar tu cita.
+          </p>
+        </Reveal>
       </div>
     </section>
   )
