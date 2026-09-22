@@ -29,7 +29,7 @@ const espacios = [
     icon: Briefcase,
     title: "¿Visión de negocio?",
     description:
-      "Cuenta con posible uso comercial debido a su excelente ubicación.",
+      "Ubicación con potencial de uso comercial (sujeto a verificación del uso de suelo).",
   },
 ]
 

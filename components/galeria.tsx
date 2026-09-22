@@ -6,14 +6,20 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
 const fotos = [
-  { src: "/images/comedor.jpg", alt: "Comedor amplio con mesa de madera y luz natural" },
-  { src: "/images/sala.jpg", alt: "Sala de estar con chimenea y área de descanso" },
-  { src: "/images/estancia.jpg", alt: "Estancia de TV y vestíbulo con doble altura" },
-  { src: "/images/recamara-principal.jpg", alt: "Recámara principal con cama king y clóset" },
-  { src: "/images/recamara-2.jpg", alt: "Segunda recámara amplia con piso de madera" },
-  { src: "/images/recamara-3.jpg", alt: "Tercera recámara iluminada con ventanal" },
+  { src: "/images/fachada.jpg", alt: "Fachada de la residencia con cochera y portón" },
+  { src: "/images/sala-2.jpg", alt: "Sala amplia con ventilador de techo y sofás" },
+  { src: "/images/sala.jpg", alt: "Sala con chimenea decorativa y área de descanso" },
+  { src: "/images/comedor.jpg", alt: "Comedor con mesa de madera y luz natural" },
+  { src: "/images/cocina.jpg", alt: "Cocina integral con barra y gabinetes de madera" },
+  { src: "/images/cocina-barra.jpg", alt: "Barra de cocina con bancos, abierta al comedor" },
+  { src: "/images/estancia.jpg", alt: "Estancia con sala de TV y barandal de escalera" },
+  { src: "/images/recamara-2.jpg", alt: "Recámara con clósets integrados y piso de madera" },
+  { src: "/images/recamara-3.jpg", alt: "Recámara luminosa con ventanal y techo alto" },
+  { src: "/images/recamara-principal.jpg", alt: "Recámara con cama de madera y ventana" },
   { src: "/images/recamara-literas.jpg", alt: "Recámara con literas y clósets integrados" },
+  { src: "/images/bano.jpg", alt: "Baño completo con regadera y tocador" },
   { src: "/images/patio.jpg", alt: "Patio trasero amplio con acabados de concreto" },
+  { src: "/images/patio-lateral.jpg", alt: "Patio interior con piso de ladrillo" },
 ]
 
 export function Galeria() {
@@ -86,7 +92,7 @@ export function Galeria() {
         </Reveal>
 
         {/* Thumbnails */}
-        <div className="mt-5 grid grid-cols-4 gap-2 sm:grid-cols-8 sm:gap-3">
+        <div className="mt-5 grid grid-cols-5 gap-2 sm:grid-cols-7 sm:gap-3">
           {fotos.map((foto, i) => (
             <button
               key={foto.src}

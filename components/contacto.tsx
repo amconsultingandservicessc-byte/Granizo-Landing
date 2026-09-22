@@ -8,8 +8,7 @@ export function Contacto() {
       <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
         <Reveal>
           <h2 className="text-balance text-3xl font-extrabold text-slate-800 sm:text-4xl">
-            ¡Agenda tu cita con el asesor inmobiliario hoy! Las propiedades en
-            esta sección se van rápido.
+            Agenda tu cita con el asesor inmobiliario y conoce la residencia en persona.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-pretty text-lg text-slate-600">
             Déjanos ayudarte a dar el siguiente paso hacia tu nueva vida frente
@@ -27,6 +26,12 @@ export function Contacto() {
             <MessageCircle className="h-6 w-6" />
             Solicitar Más Información
           </a>
+        </Reveal>
+
+        <Reveal delay={0.15}>
+          <p className="mt-6 text-sm text-slate-500">
+            Alejandro González · Asesor hipotecario, SOC AM Consulting
+          </p>
         </Reveal>
       </div>
     </section>

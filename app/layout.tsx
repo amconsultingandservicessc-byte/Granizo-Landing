@@ -6,7 +6,22 @@ export const metadata: Metadata = {
   title: 'Residencia frente al mar en Playas de Tijuana | $439,000 USD — Granizo Properties',
   description:
     'Amplia residencia en la Sección Monumental de Playas de Tijuana. 3 recámaras, a 10 min de la frontera y a 3 cuadras del nuevo Malecón. Agenda tu cita con el asesor.',
-  generator: 'v0.app',
+  openGraph: {
+    title: 'Residencia frente al mar en Playas de Tijuana | $439,000 USD',
+    description:
+      'Amplia residencia en la Sección Monumental de Playas de Tijuana. 3 recámaras, a unos 10 min de la frontera. Agenda tu cita con el asesor.',
+    type: 'website',
+    locale: 'es_MX',
+    siteName: 'Granizo Properties',
+    images: [
+      {
+        url: '/images/fachada.jpg',
+        width: 652,
+        height: 489,
+        alt: 'Fachada de la residencia en la Sección Monumental, Playas de Tijuana',
+      },
+    ],
+  },
   icons: {
     icon: [
       {
