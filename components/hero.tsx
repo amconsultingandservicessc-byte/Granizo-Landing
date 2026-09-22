@@ -99,6 +99,10 @@ export function Hero() {
               Precalifícate gratis
             </a>
           </motion.div>
+
+          <p className="text-xs text-slate-400">
+            Precio en USD y condiciones de crédito sujetos a evaluación y a cambio sin previo aviso.
+          </p>
         </div>
 
         <motion.div
