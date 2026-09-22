@@ -87,7 +87,7 @@ export function Hero() {
               className={ctaClass}
             >
               <MessageCircle className="h-5 w-5" />
-              Agendar visita por WhatsApp
+              Agendar por WhatsApp
             </a>
             <a
               href={PREAPRUEBA_URL}
