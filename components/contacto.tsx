@@ -39,7 +39,7 @@ export function Contacto() {
 
         <Reveal delay={0.15}>
           <p className="mt-6 text-sm text-slate-500">
-            Alejandro González · Asesor hipotecario, SOC AM Consulting
+            Alejandro González · Asesor inmobiliario
           </p>
         </Reveal>
       </div>
