@@ -24,7 +24,7 @@ const items = [
 
 export function Ubicacion() {
   return (
-    <section className="bg-slate-50 py-20 sm:py-24">
+    <section id="ubicacion" className="scroll-mt-20 bg-slate-50 py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal>
           <h2 className="text-balance text-center text-3xl font-extrabold text-slate-800 sm:text-4xl">
