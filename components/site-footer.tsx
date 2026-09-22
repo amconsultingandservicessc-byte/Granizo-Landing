@@ -6,9 +6,22 @@ export function SiteFooter() {
           Granizo Properties
         </span>
         <p className="mt-4 text-sm leading-relaxed text-slate-500">
-          Precio expresado en dólares americanos (USD). Las fotografías son de
-          referencia. Precio, disponibilidad y condiciones sujetos a cambio sin
-          previo aviso.
+          Asesoría hipotecaria a cargo de Alejandro González, asesor de
+          SOC AM Consulting (Red SOC). Precio expresado en dólares
+          americanos (USD). Las fotografías son de referencia. Precio,
+          disponibilidad, condiciones de crédito y tasas están sujetos a
+          cambio sin previo aviso y a la evaluación crediticia de cada
+          solicitante.
+        </p>
+        <p className="mt-4 text-sm text-slate-500">
+          <a
+            href="/docs/AVISO-DE-PRIVACIDAD-SOC-AM.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-emerald-700"
+          >
+            Aviso de privacidad
+          </a>
         </p>
         <p className="mt-4 text-sm text-slate-500">
           © 2026 Granizo Properties. Todos los derechos reservados.
