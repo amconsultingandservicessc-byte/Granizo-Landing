@@ -35,7 +35,7 @@ const espacios = [
 
 export function Espacios() {
   return (
-    <section className="py-20 sm:py-24">
+    <section id="espacios" className="scroll-mt-20 py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal>
           <h2 className="text-balance text-center text-3xl font-extrabold text-slate-800 sm:text-4xl">
